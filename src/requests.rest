@@ -1,0 +1,11 @@
+GET http://localhost:3001/servers
+
+###
+
+POST http://localhost:3001/api/user
+Content-Type: application/json
+
+{
+    "email": "santosh.sarkar@hcd.ca.gov",
+    "password": "sarkar@1234"
+}

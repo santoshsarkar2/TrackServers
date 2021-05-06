@@ -1,0 +1,57 @@
+{
+  "name": "trackservers",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2-react-grids": "^18.3.53",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "ag-grid-community": "^24.1.0",
+    "ag-grid-react": "^24.1.1",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "react": "^17.0.1",
+    "react-data-table-component": "^6.11.6",
+    "react-dom": "^17.0.1",
+    "react-native": "^0.63.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "reactstrap": "^8.7.1",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "concurrently \"npm start\" \"npm client\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
